@@ -17,4 +17,9 @@ textarea {
     box-shadow: 2px 10px 5px 0px rgba(0,0,0,0.75);
     padding: 12px;
     background-color: #ffffff;
+    color: black; 
+    -webkit-text-fill-color: black; 
+    -webkit-opacity: 1;
+    opacity: 1 !important;
+    -webkit-appearance: none;
 }
