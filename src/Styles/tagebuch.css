@@ -1,0 +1,20 @@
+.tagebuch {
+    height: 100vh;
+    background-color: #2980b9;
+    display: block;
+    color: white;
+}
+
+textarea {
+    width: 70%;
+    min-height: 50vh;
+    border: none;
+    border-radius: 5px;
+    resize: none;
+    font-size: 1.5em;
+    -webkit-box-shadow: 2px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 2px 10px 5px 0px rgba(0,0,0,0.75);
+    padding: 12px;
+    background-color: #ffffff;
+}
