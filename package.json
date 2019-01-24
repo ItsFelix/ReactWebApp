@@ -2,9 +2,11 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://felixfieseler.de/my-app",
   "dependencies": {
     "@material-ui/core": "^3.9.0",
     "@material-ui/icons": "^3.0.2",
+    "gh-pages": "^2.0.1",
     "google-map-react": "^1.1.2",
     "node-sass": "^4.11.0",
     "react": "^16.7.0",
@@ -19,6 +21,8 @@
     "react-youtube": "^7.9.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
